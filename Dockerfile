@@ -1,8 +1,4 @@
-#
-# Copyright Broadcom, Inc. All Rights Reserved.
-# SPDX-License-Identifier: Apache-2.0
-#
-FROM bitnamilegacy/node:22
+FROM node:25-alpine
 
 LABEL org.opencontainers.image.authors="https://bitnami.com/contact" \
       org.opencontainers.image.description="Readme Generator For Helm" \
